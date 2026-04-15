@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>STEM Pathfinder AI</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="video-background-page">
+  <video class="page-bg-video" autoplay muted loop playsinline preload="metadata">
+    <source src="assets/home_back.mp4" type="video/mp4">
+  </video>
   <header class="site-header">
     <div class="site-header__inner">
       <a class="site-logo" href="index.html">STEM Pathfinder AI</a>
@@ -41,17 +47,23 @@
         <h2>How STEM Pathfinder Helps You</h2>
         <div class="card-grid">
           <article class="card">
-            <div class="card__media" role="img" aria-label="Placeholder for careers image — add assets/images/feature-careers.jpg when ready"></div>
+            <div class="card__media">
+              <img src="assets/Personalized_Career_Path.jpg" alt="Personalized Career Paths">
+            </div>
             <h3>Personalized Career Paths</h3>
             <p>Get matched with careers based on your interests, skills, and personality type.</p>
           </article>
           <article class="card">
-            <div class="card__media" role="img" aria-label="Placeholder for roadmaps image — add assets/images/feature-roadmaps.jpg when ready"></div>
+            <div class="card__media">
+              <img src="assets/Educational_roadmaps.jpg" alt="Educational Roadmaps">
+            </div>
             <h3>Educational Roadmaps</h3>
             <p>Learn exactly what courses, degrees, and certifications you need to take.</p>
           </article>
           <article class="card">
-            <div class="card__media" role="img" aria-label="Placeholder for resources image — add assets/images/feature-resources.jpg when ready"></div>
+            <div class="card__media">
+              <img src="assets/Resources.jpg" alt="Resources">
+            </div>
             <h3>Resources</h3>
             <p>Access curated scholarships, high-impact internships, and top educational materials.</p>
           </article>
@@ -65,6 +77,16 @@
           <span>Mechanical Engineer</span>
           <span>Data Scientist</span>
           <span>Environmental Engineer</span>
+          <span>Civil Engineer</span>
+          <span>Biomedical Engineer</span>
+          <span>Cybersecurity Analyst</span>
+          <span>Robotics Engineer</span>
+          <span>Aerospace Engineer</span>
+          <span>Chemical Engineer</span>
+          <span>Actuary</span>
+          <span>Statistician</span>
+          <span>UX Designer</span>
+          <span>Renewable Energy Engineer</span>
         </div>
         <a class="btn btn--secondary" href="posts/5-exciting-stem-careers.html">Explore careers</a>
       </section>
@@ -125,3 +147,5 @@
   <script src="js/nav.js"></script>
 </body>
 </html>
+
+
